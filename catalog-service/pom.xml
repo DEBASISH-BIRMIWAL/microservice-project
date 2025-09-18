@@ -29,28 +29,6 @@
     <properties>
         <java.version>17</java.version>
     </properties>
-
-    <!--
-        This section overrides transitive dependencies with the latest secure versions.
-    -->
-    <dependencyManagement>
-        <dependencies>
-            <!-- Updated to latest safe version for commons-compress -->
-            <dependency>
-                <groupId>org.apache.commons</groupId>
-                <artifactId>commons-compress</artifactId>
-                <version>1.27.0</version>
-            </dependency>
-
-            <!-- Updated to latest safe version for commons-lang3 -->
-            <dependency>
-                <groupId>org.apache.commons</groupId>
-                <artifactId>commons-lang3</artifactId>
-                <version>3.15.0</version>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
-
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
